@@ -1,0 +1,23 @@
+name: HungerGames
+main: HungerGames\HungerGames
+version: 0.0.1
+api: [1.0.0, 1.1.0]
+description: HungerGames Plugin
+permissions:
+  hungergames.newarena:
+    description: "Allows using /newarena"
+    default: op
+
+  hungergames.setchest:
+    description: "Allows using /setchest"
+    default: op
+
+  hungergames.spawnadd:
+    description: "Allows using /spawnadd"
+    default: op
+
+  hungergames.addlobby:
+    desription: "Allows using /addlobby"
+    default: op
+
+
